@@ -1,5 +1,0 @@
-Group: Y
-Achyut Dedania 2021A7PS2807H
-Ayush Patel 2021A7PS2601H
-Meet Patel 2021A7PS2692H
-Shrey Paunwala 2021A7PS2808H
