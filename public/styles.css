@@ -1,0 +1,449 @@
+#controls {
+  margin-bottom: 20px;
+}
+
+#box-main-container {
+  position: relative;
+  width: 80%;
+  height: 700px;
+  margin: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ccc;
+  /* Border style */
+  border-radius: 10px;
+  /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  /* Change color to black */
+  border-radius: 50%;
+  position: absolute;
+}
+
+#line-container {
+  width: 100%;
+  height: 700px;
+}
+
+#clear-button {
+  padding: 10px;
+  margin: 20px;
+  font-size: large;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-image: url('images/image5.png');
+  /* background-image: url('images/subtle-prism.png'); */
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+#title {
+  color: white;
+}
+
+.container-fluid {
+  padding: 1% 15% 0%;
+}
+
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 2.5rem 0 4.5rem;
+  justify-content: center;
+}
+
+#navbarSupportedContent {
+  position: absolute;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.navbar-brand::after {
+  content: "";
+  /* Create pseudo-element for the underline */
+  position: absolute;
+  /* Position the underline relative to the navbar-brand */
+  bottom: -2px;
+  /* Adjust the distance of the underline from the text */
+  left: 0;
+  /* Start the underline from the left edge of the navbar-brand */
+  width: 100%;
+  /* Make the underline span the entire width of the navbar-brand */
+  height: 2px;
+  /* Adjust the thickness of the underline */
+  background-color: #fff;
+  /* Set the color of the underline */
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 30px;
+  /* Adjust the font size as needed */
+  padding: 10px 20px;
+  /* Adjust the padding as needed */
+  /* Add additional custom styles as needed */
+}
+
+/* Change the color of nav-items when hovered */
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff4c68;
+  /* Change to your desired hover color */
+}
+
+/* Change the color of active nav-item */
+.navbar-nav .nav-item.active .nav-link {
+  color: #ff4c68;
+  /* Change to your desired active color */
+}
+
+.nav-link {
+  display: inline-block;
+  /* Ensure the <a> tags are displayed as blocks */
+  padding: 5px 15px;
+  /* Adjust the padding as needed */
+  border: 1px solid #fff;
+  /* Set the border properties */
+  border-radius: 25px;
+  /* Add rounded corners to the border */
+  margin-right: 10px;
+  /* Add spacing between nav-links */
+}
+
+.nav-link:hover {
+  background-color: #fff;
+  /* Change background color on hover */
+  color: #000;
+  /* Change text color on hover */
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+.title-image {
+  width: 25%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+}
+
+p {
+  color: #000;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial */
+#testimonials {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 30%;
+  margin: 15px;
+}
+
+.carousel-item {
+  padding: 4% 10%;
+}
+
+#steps {
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  color: white;
+
+}
+#steps h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#steps ol {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+  padding-left: 2rem;
+  text-align: justify;
+}
+
+#steps li {
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+/* press */
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  /* background-image: url('images/image.png'); */
+  background-size: cover;
+  /* Adjusts the background image size to cover the entire section */
+  background-position: center;
+  /* Centers the background image */
+  color: white;
+  /* Adjust text color for better visibility */
+
+}
+
+#press label {
+  font-size: 2rem;
+  /* Adjust the font size as needed */
+}
+
+#press input[type="number"],
+#press select {
+  width: 30%;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
+  padding: 10px;
+  /* Adjust the padding as needed */
+  font-size: 16px;
+  /* Adjust the font size as needed */
+}
+
+#csvFileInput{
+  margin-left: 2.5rem;
+  background-color: #fda4b2;
+}
+
+#csvFileInput:hover{
+  margin-left: 2.5rem;
+  background-color:  #fb6bb3;
+}
+
+#press h3{
+text-decoration: underline;
+margin-top: 2rem;
+}
+
+#press ul {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+  margin-left: 18rem;
+  padding-left: 2rem;
+  text-align: justify;
+}
+
+#press li {
+  margin-bottom: 0.5rem;
+  color: #000;
+}
+
+#canvas {
+  border-color: white;
+  border-width: 10px;
+  background-color: aliceblue;
+}
+
+#generateForm {
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#analysis {
+  text-align: center;
+  padding: 5% 5%;
+  color: #000;
+  /* Text color */
+}
+
+.analysis-image{
+  height: 510px;;
+  width: 850px;
+}
+
+#analysis h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+#analysis h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: rgb(0, 34, 255);
+}
+
+#analysis p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  color: #000;
+}
+
+#analysis ul {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+  text-align: justify;
+}
+
+#analysis li {
+  margin-bottom: 0.5rem;
+}
+
+#analysis hr {
+  border-color: #ccc;
+  /* Color of horizontal rule */
+  margin: 2rem auto;
+  width: 80%;
+  /* Adjust width as needed */
+}
+
+#analysis p:last-child {
+  margin-bottom: 1.5rem;
+  /* Remove bottom margin from the last paragraph */
+}
+
+#analysis p.time-complexity {
+  margin-top: 2rem;
+  /* Added space above the Time Complexity text */
+  font-style: italic;
+  /* Make it italic */
+  text-decoration: underline;
+  /* Underline it */
+  text-align: center;
+}
+
+/* Initially hide the content */
+.content-hidden {
+  display: none;
+}
+
+/* Style the label */
+.show-more-label {
+  cursor: pointer;
+  color: blue;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.show-less-label {
+  cursor: pointer;
+  color: blue;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Style the checkbox */
+.show-more-checkbox {
+  display: none;
+}
+
+/* When the checkbox is checked, show the content */
+.show-more-checkbox:checked+#kpstime {
+  display: block;
+}
+
+/* Hide the "Show More" label when content is shown */
+.show-more-checkbox:checked+#kpstime+.show-more-label {
+  display: none;
+}
+
+.show-more-checkbox:checked~.show-less-label {
+  display: inline;
+}
+
+/* Hide the "Show Less" label when the additional content is hidden */
+.show-more-checkbox:not(:checked)~.show-less-label {
+  display: none;
+}
+
+#showMoreCheckbox2 {
+  display: none;
+  /* Initially hide the checkbox */
+}
+
+/* When the checkbox is checked, show the content */
+#showMoreCheckbox2:checked+#jarvis-time-complexity {
+  display: block;
+}
+
+/* Hide the "Show More" label when content is shown */
+#showMoreCheckbox2:checked+#jarvis-time-complexity+.show-more-label {
+  display: none;
+}
+
+#showMoreCheckbox2:checked~.show-less-label {
+  display: inline;
+}
+
+/* Hide the "Show Less" label when the additional content is hidden */
+#showMoreCheckbox2:not(:checked)~.show-less-label {
+  display: none;
+}
+
+/* footer */
+#footer {
+  padding: 3% 15%;
+  text-align: center;
+  position: relative;
+  /* Position relative for absolute positioning of the animation */
+  overflow: hidden;
+  /* Hide overflow to prevent scrollbar */
+}
